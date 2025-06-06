@@ -8,4 +8,7 @@ app.listen(PORT,()=>{
   app.get('/',(req,res)=>{
     res.render("home")
   })
+  app.get('/hello',(req,res)=>{
+    res.send("Hello World")
+  })
 
